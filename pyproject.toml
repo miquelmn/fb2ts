@@ -161,8 +161,10 @@ dependencies = [
     "webencodings==0.5.1",
     "websocket-client==1.9.0",
     "widgetsnbextension==4.0.15",
+    "xai-library",
     "zipp==3.23.0",
 ]
 
 [tool.uv.sources]
 lime = { git = "https://github.com/miquelmn/lime.git" }
+xai-library = { git = "https://github.com/kdd-lab/XAI-Lib.git" }
